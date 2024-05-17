@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Allocation Form</title>
+  <style>
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Class Allocation Form</h2>
+  <form action="submit_allocation.php" method="POST">
+    <div class="form-group">
+      <label for="class_id">Class ID:</label>
+      <input type="text" id="class_id" name="class_id" placeholder="Enter Class ID" required>
+    </div>
+    <div class="form-group">
+      <label for="period_id">Period ID:</label>
+      <input type="text" id="period_id" name="period_id" placeholder="Enter Period ID" required>
+    </div>
+    <div class="form-group">
+      <label for="period_time">Period Time:</label>
+      <input type="text" id="period_time" name="period_time" placeholder="Enter Period Time" required>
+    </div>
+    <div class="form-group">
+      <label for="period_name">Period Name:</label>
+      <input type="text" id="period_name" name="period_name" placeholder="Enter Period Name" required>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
