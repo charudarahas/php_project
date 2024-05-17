@@ -46,6 +46,7 @@
 <a href="addPeriod.html"><button>Add Period</button></a>
 <a href="deletePeriod.html"><button>Delete Period</button></a>
 <a href="updatePeriod.html"><button>Update Period</button></a>
+<a href="teacher.php"><button>Teacher</button></a>
 <a href="index.php"><button>Home</button></a>
 </div>
 
@@ -56,7 +57,7 @@
         <thead>
             <tr>
                 <th>Period ID</th>
-                <th>Class IDr</th>
+                <th>Class ID</th>
                 <th>Period Time</th>
                 <th>Period Name</th>
             </tr>

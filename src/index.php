@@ -36,6 +36,7 @@
   <a href="details.php"><button>Class</button></a>
   <a href="period.php"><button>Period</button></a>
   <a href="teacher.php"><button>Teacher</button></a>
+  <a href="get_time_table.php"><button>TimeTable</button></a>
 </div>
   
 
@@ -43,6 +44,7 @@
 <div class="container">
   <!-- Table Display from Database -->
   <table id="database-table">
+  <caption><strong>Timetable</strong></caption>
     <thead>
       <tr>
         <th>Class Number</th>

@@ -46,6 +46,7 @@
 <a href="addClass.html"><button>Add Class</button></a>
 <a href="deleteClass.html"><button>Delete Class</button></a>
 <a href="updateClass.html"><button>Update Class</button></a>
+<a href="period.php"><button>Period</button></a>
 <a href="index.php"><button>Home</button></a>
 </div>
 

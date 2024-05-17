@@ -46,6 +46,7 @@
 <a href="addTeacher.html"><button>Add Teacher</button></a>
 <a href="deleteTeacher.html"><button>Delete Teacher</button></a>
 <a href="updateTeacher.html"><button>Update Teacher</button></a>
+<a href="get_time_table.php"><button>Time Table</button></a>
 <a href="index.php"><button>Home</button></a>
 </div>
 
